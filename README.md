@@ -9,6 +9,7 @@ Instead of relying on a single AI response, the system uses multiple specialized
 The goal is to make AI systems more accountable, understandable, and trustworthy.
 
 
+
 ## Problem Statement
 
 As AI systems become more capable, they are increasingly being used to support important decisions in areas such as finance, healthcare, and business operations.
@@ -18,6 +19,7 @@ While these systems can generate answers quickly, they often provide limited vis
 Project Sentinel addresses this challenge by introducing a structured review process before a decision is finalized.
 
 
+
 ## Proposed Solution
 
 Project Sentinel creates a review environment where multiple AI agents analyze the same problem independently.
@@ -25,7 +27,6 @@ Project Sentinel creates a review environment where multiple AI agents analyze t
 Each agent focuses on a specific aspect of the decision, such as planning, risk assessment, financial impact, or policy compliance. Their findings are then combined to generate a final recommendation supported by reasoning and validation records.
 
 This process encourages evaluation from multiple perspectives rather than relying on a single response.
-
 
 
 ## System Components
@@ -58,6 +59,7 @@ Compiles the observations of all agents and produces the final report.
 3. Risk, Finance, and Policy Agents review the proposal independently.
 4. The Audit Agent consolidates the feedback.
 5. A final recommendation is produced along with supporting reasoning.
+
 
 
 ## Technology Stack
@@ -126,7 +128,6 @@ Policy and regulatory verification.
 Monitoring and supervision of AI-generated decisions.
 
 
-
 ## Future Scope
 
 * Additional domain-specific agents
@@ -136,14 +137,3 @@ Monitoring and supervision of AI-generated decisions.
 * Human-in-the-loop review mechanisms
 
 
-
-## Team
-
-Project Sentinel Development Team
-
-Jaypee Institute of Information Technology, Noida
-
-
-## License
-
-This project was developed for academic and research purposes.
